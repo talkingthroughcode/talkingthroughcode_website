@@ -2,26 +2,36 @@ body {
     background-color: #5FCBEE;
     color: white;
     text-align: center;
-    margin: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 hr {
     border: none;
     height: 3px;
     background-color: white;  
-  }
-
-.top {
-    width: auto;
-    height: 400px;
 }
 
-img {
+.centered-vertically {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80%;
     width: 100%;
 }
 
-table  {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.logo {
+    height: 35rem;
+}
+
+.icon {
+    width: 5rem;
+}
+
+footer {
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: 1rem;
 }

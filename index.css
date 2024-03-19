@@ -26,6 +26,10 @@ hr {
     height: 35rem;
 }
 
+td {
+    width: 7rem;
+}
+
 .icon {
     width: 5rem;
 }
